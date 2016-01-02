@@ -1,0 +1,26 @@
+#######################################################
+#                    All Settings                     #
+#######################################################
+
+  add_rawler_html_log  =  false
+  add_rawler_xml_log   =  false
+  app_host             =  https://www.google.com/accounts/?hl=en
+  debug_mode           =  false
+  driver               =  selenium
+  html_log             =  log.html
+  log_dir              =  log
+  maximized_window     =  true
+  rawler_html_log      =  rawler_log.html
+  rawler_log           =  rawler_log.txt
+  rawler_xml_log       =  rawler_log.xml
+  required_clean_logs  =  true
+  sel_browser          =  chrome
+  selenium_server_log  =  selenium-server.log
+  timeout_medium       =  60
+  timeout_short        =  3
+  timeout_small        =  20
+  timeout_tiny         =  1
+  txt_log              =  log.txt
+
+ => Scenario: Sign up with already used phone number
+ => Scenario: Sign up with invalid credentials

@@ -1,0 +1,17 @@
+source 'https://rubygems.org'
+
+# Uncomment it if you are going to use 'webkit' driver. QT library should be installed. See https://github.com/thoughtbot/capybara-webkit/wiki/Installing-Qt-and-compiling-capybara-webkit
+#
+# gem 'capybara-webkit'
+
+# gem 'howitzer', github: 'strongqa/howitzer', branch: 'v2.0'
+gem 'howitzer'
+gem 'factory_girl'
+gem 'faker'
+gem 'site_prism'
+gem 'gmail'
+gem 'gmail_xoauth'
+gem 'mail'
+gem 'cucumber', '2.0.0'
+gem 'capybara'
+gem 'rest_client', '~> 1.8', '>= 1.8.3'
